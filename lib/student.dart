@@ -46,7 +46,6 @@ class StudentList extends StatelessWidget {
 
 _launchURL(Student student) async {
   var url = 'mailto:' + student.email;
-  print("coucou");
   if (await canLaunch(url)) {
     await launch(url);
   } else {

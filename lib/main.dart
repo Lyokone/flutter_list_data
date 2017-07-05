@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       floatingActionButton: new FloatingActionButton(
         onPressed: _getStudents,
-        tooltip: 'Increment',
+        tooltip: 'Rechercher',
         child: new Icon(Icons.search),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
